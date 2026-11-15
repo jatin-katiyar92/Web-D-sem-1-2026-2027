@@ -1,0 +1,56 @@
+!<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Accessible Page Assignment</title>
+    <style>
+        .output-box {
+            border: 1px solid #a3cfbb;
+            padding: 15px;
+            font-family: Arial, sans-serif;
+        }
+        .skip-link {
+            display: block;
+            margin-bottom: 5px;
+        }
+        .nav-links {
+            margin-bottom: 15px;
+        }
+        h1 {
+            font-family: serif;
+            font-size: 28px;
+        }
+        .search-group {
+            margin-bottom: 10px;
+        }
+    </style>
+</head>
+<body>
+    
+    <div class="output-box">
+        <!-- Skip to main content link -->
+        <a href="#main-content" class="skip-link">Skip to main content</a>
+        
+        <!-- Navigation Links -->
+        <div class="nav-links">
+            <a href="#home">Home</a>&nbsp;&nbsp;<a href="#help">Help</a>
+        </div>
+        
+        <!-- Heading -->
+        <h1 id="main-content">Accessible Page</h1>
+        
+        <!-- Search input with clear/icon button -->
+        <div class="search-group">
+            <input type="search" placeholder="Search..." style="width: 250px; padding: 3px;">
+            <button type="button" style="padding: 3px 6px;">X</button>
+        </div>
+        
+        <!-- Standard Search Field with Label -->
+        <div class="search-group">
+            <label for="search-box">Search: </label>
+            <input type="text" id="search-box" name="search" style="width: 200px; padding: 2px;">
+        </div>
+    </div>
+
+</body>
+</html>
